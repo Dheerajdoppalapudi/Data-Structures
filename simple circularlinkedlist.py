@@ -24,6 +24,8 @@ class CircularLinkedList:
     def deletion(self): # deletes a node at starting of the list
         if self.head is None:
             print("List is empty, nothing to delete")
+        elif self.head is self.head.next: # when there is only one node left in the linked list
+            self.head = None
         else:
             temp = self.head
             while temp:
