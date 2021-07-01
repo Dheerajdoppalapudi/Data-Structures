@@ -53,7 +53,7 @@ class CircularLinkedList:
                 temp = temp.next
 
 
-object=CircularLinkedList()
+object = CircularLinkedList()
 while True:
     print("----------------------------------")
     print('1 -> Insertion ')
